@@ -11,10 +11,10 @@ let userEmail;
 const id =Symbol('123')
 const anotherId=Symbol('123')
 
-console.log(id===anotherId); //Output: false
+//console.log(id===anotherId); //Output: false
 //const bigNumber= 3456787654n
 
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
 
 
 
@@ -29,7 +29,29 @@ let myObj={
 }
 
 const myfunction=function(){
-console.log("hello sanny")
+//console.log("hello sanny")
 }
 
+  
+//**************************************************
+//stack (primitive) LIFO,
 
+let anotherName = "sannysony"
+anotherName="sudhir"
+//console.log("sannysony");
+//console.log(anotherName);
+
+
+
+// Heap (Non-primitive)
+
+
+
+let user1 = {
+    email:"user@0234gmail.com",
+    upi:"user@ibl"
+}
+let user2=user1
+user2.email="sanny@34556gmail.com"
+user2.upi="dfghj@ibl"
+console.log(user1)
