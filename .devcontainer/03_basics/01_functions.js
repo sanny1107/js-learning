@@ -14,6 +14,7 @@
 //    console.log(number1+number2);
 // }
 // AddTwoNumber(3,5)
+
  function AddTwoNumber(number1,number2){
     // let result=number1+number2
     // return result
@@ -22,7 +23,7 @@
  const result=AddTwoNumber(3,5)
  console.log("Result: ",result);
 
- function loginUserMessage(username){
+ function loginUserMessage(username ="sanny"){
     if(username===undefined){
         console.log("please enter a username");
         return 
